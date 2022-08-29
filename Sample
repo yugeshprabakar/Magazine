@@ -1,0 +1,120 @@
+<html>
+<head>
+<title>magazine</title>
+<style>
+form{
+    width:50%;
+
+border:2px solid black;
+}
+h1{
+
+ text-align:center;
+background-color:red;
+color:white;
+}
+.body{
+background-color:white;
+}
+.c{
+display:inline-block;
+}
+.o{
+display:inline-block;
+}
+.t{
+font-size:large;
+font-family: 'Poppins', sans-serif;
+}
+.u,.n,.x,.z,.xz,.ad,.ae,.af{
+display:inline-block;
+}
+
+.b,.ad,.e2,.e3,.a0,.t{
+    font-weight: 700 ;
+    font-size:large;
+font-family: 'Poppins', sans-serif;
+}
+.ab,.ac{
+display:block;
+padding-left:20px;
+padding-right:40px;
+}
+.g,.aa,.ag,.ai{
+padding-left:20px;
+padding-right:30px;
+
+}
+.a{
+    border:none;
+    border-bottom: 2px solid black;
+}
+input{
+    border:none;
+}
+
+</style>
+<!--Google Font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<form>
+<body>
+<div class="head">
+<h1>Yes! I want to subscribe to Mag-O-Zine</h1>
+</div>
+<div class="body">
+<div class="ab">
+<div class="o">
+<p  class="a"><input type="text" name="First Name" id="First Name" /></p>
+<p class="t"><label for="First Name">First Name</label></p>
+</div>
+<div class="c">
+<p class="a"><input type="text" name="Last Name" id="Last Name"/></p>
+<p class="b"><label for="First Name">Last Name</label></p>
+</div>
+</div>
+<div class="g">
+<p class="a"><input type="text" name="Address" id="Address"/></p>
+<p class="b"><label for="Address">Address</label></p>
+</div>
+<div class="aa">
+<div class="x">
+<p class="a"><input type="text" name="City" id="City"/></p>
+<p class="b"><label for="city">City</label></p>
+</div>
+<div class="z" >
+<p class="a"><input type="text" name="state" id="state"/></p>
+<p class="b"><label for="State">State</label></p>
+</div>
+<div class="xz" >
+<p class="a"><input type="text" name="zip" id="zip"/></p>
+<p class="b"><label for="zip">Zip</label></p>
+</div>
+</div>
+<div class="ag">
+<p class="ad">Subscribe for:</p>
+<div class="ae">
+<p class="e1"><label for="1 year($19.95)"></p>
+<p></p><input type="checkbox" name="1 year" id="1 year" value="1 year"><label class="e2">1 year($19.95)</label></p>
+</div>
+<div class="af">
+<p class="e1"><label for="2 years($35.00)"></p>
+<p><input type="checkbox" name="2 years" id="2 years" value="2 years"><label class="e2">2 years($35.00)</label></p>
+</div>
+</div>
+<div class="ai">
+<p class="a0">Send me more information about:</p>
+<p class="e1"><label for="Computer-Zine"></p>
+<input type="checkbox" name="Computer-Zine" id="Computer-Zine" value="Computer-Zine"><label class="e2">Computer-Zine</label></p>
+<p class="e1"><label for="Fishing-Zine"></p>
+<input type="checkbox" name="Fishing-Zine" id="Fishing-Zine" value="Fishing-Zine"><label class="e2">Fishing-Zine</label></p>
+<p class="e1"><label for="Cat-O-Zine"></p>
+<input type="checkbox" name="Cat-O-Zine" id="Cat-O-Zine" value="Cat-O-Zine"><label class="e2">Cat-O-Zine</label></p>
+</div>
+</div>
+</div>
+</body> 
+</form>
+</html>
